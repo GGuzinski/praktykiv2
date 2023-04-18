@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+ 
+    <title>Document</title>
+ <link rel="stylesheet" href="sprawozdanie.css">
+ 
+</head>
+<body>
+    <header>
+        <h1>Sprawozdania</h1>
+    </header>
+    <section>
+        <button id="sprawozdanie"><a href="sprawozdanie.html">Sprawozdanie</a></button>
+        <button id="home"><a href="strona glowna.html">Strona Główna</a></button>
+        <button id="podsumowanie"><a href="sprawozdanie.html">Podsumowanie</a></button>
+    </section>
+    <main>
+<form action="">
+    <fieldset>
+        <legend>Inforamcje o zajęciach</legend>
+    <label> Data 
+        <input type="date">
+    </label>
+    <label> Dział
+        <section>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </section>
+    </label>
+    <label>
+        
+    </label>
+</fieldset>
+
+<label id="opiekun"> Opiekun: 
+    <input type="text"/>
+</label>
+<fieldset id="mateial">
+    <legend>Realizacja materiału</legend>
+    <label id=""> Sprawozdanie:
+        <input type="text"/>
+    </label>
+    <label id="">Zrealizowano
+        <input type="checkbox"/>
+    </label>
+    <label>Stopień zrealizowanego materiału: 1
+        <input type="range"
+        min="1"
+        max="6"
+        step="1" /> 6
+    </label>
+    <label> Ile godzin
+        <input type="number">
+    </label>
+</fieldset>
+</form>
+<button id="bnt">Prześlij</button>
+    </main>
+</html>

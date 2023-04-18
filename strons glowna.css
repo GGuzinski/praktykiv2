@@ -1,0 +1,19 @@
+
+h1{
+    text-align: center;
+}
+main{
+    border: 1px groove black;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size:medium;
+    padding: 1rem;
+    
+}
+section{
+text-align: center;
+padding: 1rem;
+}

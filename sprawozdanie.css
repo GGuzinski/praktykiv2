@@ -1,0 +1,23 @@
+header{
+    text-align: center;
+   
+}
+button{
+    padding: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem
+}
+section{
+    text-align: center;
+}
+fieldset{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size:medium;
+    padding: 1rem;
+    
+}
+#bnt{
+    text-align: center;
+}
